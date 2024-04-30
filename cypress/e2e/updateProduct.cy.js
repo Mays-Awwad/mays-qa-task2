@@ -10,6 +10,7 @@ describe("search for product functionality", () => {
         cy.get("a.nav-link").contains("Catalog").click({force:true});
         cy.contains("P","Products").click({force:true});
         cy.wait(1000);
+        cy.wait(3000);
 
     });
 
